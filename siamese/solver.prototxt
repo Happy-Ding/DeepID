@@ -1,0 +1,19 @@
+net: "deepid.prototxt"
+
+test_iter: 2000
+test_interval: 500
+
+base_lr: 0.0001
+lr_policy: "step"
+gamma: 1
+stepsize: 200000 
+display: 20
+max_iter: 4000000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 20000
+snapshot_prefix: "deepid2"
+solver_mode: GPU
+device_id: 0
+
+
